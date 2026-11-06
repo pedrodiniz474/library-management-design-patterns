@@ -26,6 +26,12 @@ O **BibliotecaWeb** é uma aplicação web Java EE para gerenciamento de acervo 
 
 ---
 
+## O que mudou da v1 para esta versão
+
+A [v1](https://github.com/pedrodiniz474/library-management-web-v1) funcionava, mas foi escrita antes de eu estudar design patterns, com as responsabilidades misturadas no código. Nesta versão, refatorei o projeto aplicando Command, Factory Method, Decorator e DAO, separando acesso a dados, regras de negócio e ações do sistema. O resultado é um código mais organizado, mais fácil de manter e de estender.
+
+---
+
 ## ✅ Funcionalidades
 
 ### Administrador
